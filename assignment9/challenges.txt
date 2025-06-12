@@ -1,0 +1,3 @@
+One of the main challenges was identifying the correct HTML structure and XPath selectors to extract the OWASP Top 10 list. The webpage uses dynamic content with nested elements, which required careful inspection using browser developer tools. 
+Another challenge was ensuring that the Selenium script waited for the content to load before extracting the data, as the page might not be fully rendered immediately. This was addressed by allowing a short sleep time after loading the page.
+Lastly, constructing a clean CSV output required attention to formatting and escaping any commas or special characters in the titles or links. These issues were resolved through testing and validating the CSV content manually.
