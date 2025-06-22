@@ -1,0 +1,15 @@
+
+function: say_hello
+positional parameters: none
+keyword parameters: none
+return: None
+
+function: accept_args
+positional parameters: (1, 2, 3, 4)
+keyword parameters: none
+return: True
+
+function: keyword_args_only
+positional parameters: none
+keyword parameters: {'name': 'Renato', 'age': 38, 'country': 'USA'}
+return: <function logger_decorator at 0x000001F03013EFC0>
